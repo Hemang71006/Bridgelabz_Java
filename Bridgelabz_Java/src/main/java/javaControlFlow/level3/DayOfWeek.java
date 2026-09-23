@@ -1,29 +1,22 @@
 package javaControlFlow.level3;
 
-import java.util.Scanner;
-
 /**
  * Problem 5 (GCR — Control Flow Level 3 Assignment)
- * Write a program DayOfWeek that takes month, day, and year as input
- * and calculates the day of the week.
+ * Write a program DayOfWeek that takes month, day, and year from
+ * the command line and calculates the day of the week.
  * The output is 0 for Sunday, 1 for Monday, 2 for Tuesday, and so on.
  *
  * Author : Hemang
  * Date : 21-09-2026
  */
 public class DayOfWeek {
+
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
-        // Take month, day, and year as input
-        System.out.print("Enter month: ");
-        int month = input.nextInt();
-
-        System.out.print("Enter day: ");
-        int day = input.nextInt();
-
-        System.out.print("Enter year: ");
-        int year = input.nextInt();
+        // Take month, day, and year from command line
+        int month = Integer.parseInt(args[0]);
+        int day = Integer.parseInt(args[1]);
+        int year = Integer.parseInt(args[2]);
 
         // Calculate adjusted year
         int y0 = year - (14 - month) / 12;
@@ -39,7 +32,5 @@ public class DayOfWeek {
 
         // Display the day number
         System.out.println("Day of week: " + d0);
-
-        input.close();
     }
 }
