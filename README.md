@@ -66,3 +66,20 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 **Issues faced**
 - Faced some difficulty working with 2D arrays and handling array size and input correctly
+
+### Day 05 — 23 Sep 2026
+
+**What I have done**
+- Learned Java Methods concepts
+- Completed Java Methods Level 1, Level 2 and Level 3 assignments
+- Practiced creating methods, passing parameters, returning values and using static methods
+- Practiced recursion, unit conversion, number checking, arrays, matrix operations and mathematical calculations
+
+**What I will do**
+- Practice writing reusable methods
+- Improve my understanding of method parameters, return values and recursion
+- Practice solving problems using methods
+
+**Issues faced**
+- Faced some difficulty understanding when to use static and non-static methods
+- Faced some difficulty handling multiple methods and returning arrays from methods
