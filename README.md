@@ -11,18 +11,65 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 ## Daily Task Update
 
+### Day 08 — 26 Sep 2026
+
+**What I have done**
+- Completed the remaining Java Strings Level 2 assignment
+- Completed Java Strings Level 3 assignment
+- Practiced string manipulation, character frequency, palindrome, anagram, calendar and deck of cards problems
+
+**What I will do**
+- Revise Java concepts learned so far
+- Practice coding problems based on Java fundamentals, arrays, methods and strings
+
+**Issues faced**
+- Faced some difficulty understanding character frequency and nested loop based string problems
+
+---
+
+### Day 07 — 25 Sep 2026
+
+**What I have done**
+- Learned Java Strings concepts
+- Completed Java Strings Level 1 assignment
+- Completed some questions from Java Strings Level 2
+- Practiced string comparison, substring, character handling, exceptions, string length, word splitting and character classification
+
+**What I will do**
+- Complete the remaining Java Strings Level 2 questions
+- Practice Java Strings Level 3 problems
+
+**Issues faced**
+- Faced some difficulty understanding string manipulation and handling characters using `charAt()`
+
+---
+
+### Day 06 — 24 Sep 2026
+
+**What I have done**
+- Completed Java Methods Level 3 assignment
+- Practiced methods with arrays, number properties, recursion, OTP generation, calendar, mathematical calculations, employee bonus, student scorecard and matrix operations
+
+**What I will do**
+- Learn Java Strings concepts
+- Practice string-based problems and manipulation
+
+**Issues faced**
+- Faced some difficulty handling multiple methods together and implementing matrix operations using methods
+
+---
+
 ### Day 05 — 23 Sep 2026
 
 **What I have done**
 - Learned Java Methods concepts
-- Completed Java Methods Level 1, Level 2 and Level 3 assignments
+- Completed Java Methods Level 1 and Level 2 assignments
 - Practiced creating methods, passing parameters, returning values and using static methods
-- Practiced recursion, unit conversion, number checking, arrays, matrix operations and mathematical calculations
+- Practiced recursion, unit conversion, number checking, arrays and mathematical calculations
 
 **What I will do**
-- Practice writing reusable methods
-- Improve my understanding of method parameters, return values and recursion
-- Practice solving problems using methods
+- Complete Java Methods Level 3 assignment
+- Practice methods with arrays and mathematical problems
 
 **Issues faced**
 - Faced some difficulty understanding when to use static and non-static methods
