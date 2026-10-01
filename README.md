@@ -11,6 +11,61 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 ## Daily Task Update
 
+### Day 11 — 30 Sep 2026
+
+**What I have done**
+- Completed Java `this`, `static`, `final` and `instanceof` practice problems
+- Practiced using `this` for instance variables and constructor parameters
+- Practiced static variables and methods
+- Practiced final variables and type checking using `instanceof`
+
+**What I will do**
+- Revise Java OOP concepts learned so far
+- Practice questions based on `this`, `static`, `final` and `instanceof`
+
+**Issues faced**
+- Faced some difficulty understanding the difference between instance and static members
+- Faced some difficulty understanding how `final` and `instanceof` work in different situations
+
+---
+
+### Day 10 — 29 Sep 2026
+
+**What I have done**
+- Completed Java Constructors practice problems
+- Practiced default, parameterized and copy constructors
+- Practiced constructor overloading and constructor chaining
+- Practiced instance vs class variables and methods
+- Practiced access modifiers and inheritance
+
+**What I will do**
+- Learn and practice `this`, `static`, `final` and `instanceof`
+- Revise constructors and access modifiers
+
+**Issues faced**
+- Faced some difficulty understanding constructor chaining
+- Faced some difficulty understanding the difference between instance and class variables
+
+---
+
+### Day 09 — 28 Sep 2026
+
+**What I have done**
+- Completed Java String Extras practice problems
+- Completed Java Class and Object Level 1 and Level 2 assignments
+- Practiced string manipulation and additional string-based problems
+- Practiced creating classes and objects, fields, constructors and methods
+
+**What I will do**
+- Learn Java Constructors concepts
+- Practice constructor overloading, constructor chaining and access modifiers
+
+**Issues faced**
+- Faced some difficulty understanding how classes and objects work together
+- Faced some difficulty understanding object creation and constructor usage
+
+---
+
 ### Day 08 — 26 Sep 2026
 
 **What I have done**
@@ -130,7 +185,7 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 **What I have done**
 - Set up the repository with main, develop and feature branches
 - Completed the Java programming assignment
-  (feature/coreProgramming > javaProgrammingElement)
+  (feature/coreProgramming > javaProgrammingElements)
 
 **What I will do**
 - Learn more Java concepts
