@@ -11,6 +11,54 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 ## Daily Task Update
 
+### Day 14 — 03 Oct 2026
+
+**What I have done**
+- Completed and pushed Encapsulation, Abstraction, Polymorphism, Interface and Abstract Class assignments
+- Practiced encapsulation, abstract classes, interfaces, method overloading and method overriding
+
+**What I will do**
+- Continue with upcoming Java OOP assignments
+- Practice the concepts covered in the assignments
+
+**Issues faced**
+- Faced some difficulty understanding the differences between abstract classes and interfaces
+- Faced some difficulty understanding runtime polymorphism and method overriding
+
+---
+
+### Day 13 — 02 Oct 2026
+
+**What I have done**
+- Completed and pushed Java Inheritance assignment
+- Practiced single, multilevel, hierarchical and hybrid inheritance using interfaces
+
+**What I will do**
+- Learn and practice encapsulation and abstraction
+- Work on upcoming OOP assignments
+
+**Issues faced**
+- Faced some difficulty understanding different types of inheritance
+- Faced some difficulty understanding hybrid inheritance using interfaces
+
+---
+
+### Day 12 — 01 Oct 2026
+
+**What I have done**
+- Completed and pushed Java Object Modeling coding and diagram assignments
+- Practiced class, object, sequence diagrams and association, aggregation and composition relationships
+
+**What I will do**
+- Learn and practice Java Inheritance
+- Work on upcoming OOP assignments
+
+**Issues faced**
+- Faced some difficulty understanding association, aggregation and composition
+- Faced some difficulty creating and aligning UML diagrams
+
+---
+
 ### Day 11 — 30 Sep 2026
 
 **What I have done**
