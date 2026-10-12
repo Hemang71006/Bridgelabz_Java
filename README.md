@@ -11,6 +11,78 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 ## Daily Task Update
 
+### Day 20 — 09 Oct 2026
+
+**What I have done**
+- Completed and pushed Java StringBuilder, StringBuffer, FileReader, BufferedReader and InputStreamReader assignments
+- Practiced string manipulation, efficient concatenation and file handling
+- Compared StringBuilder and StringBuffer performance using `System.nanoTime()`
+- Practiced reading files using FileReader and InputStreamReader
+
+**What I will do**
+- Practice runtime analysis and Big O notation
+- Compare the performance of different algorithms and data structures
+
+**Issues faced**
+- Faced some difficulty understanding the differences between StringBuilder and StringBuffer
+- Faced some difficulty handling file paths and comparing file-reading performance
+
+---
+
+### Day 19 — 08 Oct 2026
+
+**What I have done**
+- Completed and pushed Java Searching Algorithms assignments
+- Practiced Linear Search and Binary Search
+- Practiced finding elements and the first and last occurrences of a target
+- Compared searching algorithms and their time complexities
+
+**What I will do**
+- Practice Java StringBuilder and StringBuffer
+- Learn file handling using FileReader, BufferedReader and InputStreamReader
+
+**Issues faced**
+- Faced some difficulty understanding binary search boundaries and updating the search range
+- Faced some difficulty understanding why Binary Search requires sorted data
+
+---
+
+### Day 18 — 07 Oct 2026
+
+**What I have done**
+- Completed and pushed Java Sorting Algorithms assignments
+- Practiced Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort, Heap Sort and Counting Sort
+- Practiced sorting arrays in ascending order using different algorithms
+- Learned about the time complexity and performance differences of sorting algorithms
+
+**What I will do**
+- Practice Linear Search and Binary Search
+- Improve my understanding of searching algorithms and their time complexities
+
+**Issues faced**
+- Faced some difficulty understanding the working of Merge Sort and Quick Sort
+- Faced some difficulty understanding the time complexity differences between sorting algorithms
+
+---
+
+### Day 17 — 06 Oct 2026
+
+**What I have done**
+- Completed and pushed Java Linked List assignments
+- Practiced singly linked list insertion, deletion, traversal and searching operations
+- Practiced reversing linked lists and finding middle elements
+- Revised linked list implementation and node references
+
+**What I will do**
+- Practice Java Sorting Algorithms
+- Learn different sorting techniques and their time complexities
+
+**Issues faced**
+- Faced some difficulty managing node references during insertion and deletion
+- Faced some difficulty updating links correctly while reversing a linked list
+
+---
+
 ### Day 14 — 03 Oct 2026
 
 **What I have done**
