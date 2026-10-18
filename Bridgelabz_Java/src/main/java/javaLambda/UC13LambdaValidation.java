@@ -1,53 +1,68 @@
 package javaLambda;
 
+import java.util.function.Predicate;
+
+/**
+ * Problem (User Registration - UC13)
+ * Use a functional interface and lambda expressions to validate
+ * first name, last name, email, mobile number, and password.
+ *
+ * Author : Hemang
+ * Date   : 14-10-2026
+ */
+
+// UC13: Functional interface for validating user fields.
+@FunctionalInterface
+interface UserFieldValidator {
+    boolean validate(String value);
+}
+
 public class UC13LambdaValidation {
 
-    // Functional interface: contains exactly one abstract method
-    @FunctionalInterface
-    interface UserValidator {
-        boolean validate(String value);
-    }
+    // UC1 and UC2: Name starts with uppercase and contains at least 3 letters.
+    static UserFieldValidator nameValidator = name ->
+            name != null && name.length() >= 3
+                    && Character.isUpperCase(name.charAt(0))
+                    && name.chars().allMatch(Character::isLetter);
+
+    // UC3: Validate email using a lambda expression.
+    static UserFieldValidator emailValidator = email ->
+            email != null && email.matches(
+                    "^[A-Za-z0-9]+([._+-][A-Za-z0-9]+)*@[A-Za-z0-9]+(\\.[A-Za-z]{2,})+$");
+
+    // UC4: Mobile number has country code, space, and 10 digits.
+    static UserFieldValidator mobileValidator = mobile ->
+            mobile != null && mobile.matches("^\\d{1,3} \\d{10}$");
+
+    // UC5-UC8: Password requires 8 characters, uppercase, digit, and exactly one special character.
+    static UserFieldValidator passwordValidator = password ->
+            password != null
+                    && password.length() >= 8
+                    && password.chars().anyMatch(Character::isUpperCase)
+                    && password.chars().anyMatch(Character::isDigit)
+                    && password.chars().filter(ch ->
+                    !Character.isLetterOrDigit(ch)).count() == 1;
 
     public static void main(String[] args) {
 
-        // Lambda expressions for each field validation
-        UserValidator firstName = name ->
-                name != null && name.length() >= 3
-                        && Character.isUpperCase(name.charAt(0))
-                        && name.chars().allMatch(Character::isLetter);
+        // Validate and display first name.
+        System.out.println("First name Hemang: "
+                + nameValidator.validate("Hemang"));
 
-        UserValidator lastName = name ->
-                name != null && name.length() >= 3
-                        && Character.isUpperCase(name.charAt(0))
-                        && name.chars().allMatch(Character::isLetter);
+        // Validate and display last name.
+        System.out.println("Last name Jeswani: "
+                + nameValidator.validate("Jeswani"));
 
-        UserValidator email = value ->
-                value != null && value.matches(
-                        "^[A-Za-z0-9]+([._+-][A-Za-z0-9]+)*@[A-Za-z0-9]+(\\.[A-Za-z]{2,})+$");
+        // Validate and display email.
+        System.out.println("Email abc.xyz@bl.co.in: "
+                + emailValidator.validate("abc.xyz@bl.co.in"));
 
-        UserValidator mobile = value ->
-                value != null && value.matches("^\\+[0-9]{1,3} [0-9]{10}$");
+        // Validate and display mobile number.
+        System.out.println("Mobile 91 9919819801: "
+                + mobileValidator.validate("91 9919819801"));
 
-        UserValidator password = value ->
-                value != null
-                        && value.length() >= 8
-                        && value.chars().anyMatch(Character::isUpperCase)
-                        && value.chars().anyMatch(Character::isDigit)
-                        && value.chars().filter(ch ->
-                        !Character.isLetterOrDigit(ch)).count() == 1;
-
-        // Test user details
-        String first = "Hemang";
-        String last = "Jeswani";
-        String mail = "hemang.j@gmail.com";
-        String phone = "+91 9876543210";
-        String pass = "Hello@123";
-
-        // Validate and display results
-        System.out.println("First Name: " + firstName.validate(first));
-        System.out.println("Last Name: " + lastName.validate(last));
-        System.out.println("Email: " + email.validate(mail));
-        System.out.println("Mobile: " + mobile.validate(phone));
-        System.out.println("Password: " + password.validate(pass));
+        // Validate and display password.
+        System.out.println("Password Abcd123!: "
+                + passwordValidator.validate("Abcd123!"));
     }
 }
