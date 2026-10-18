@@ -11,6 +11,70 @@ BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 ## Daily Task Update
 
+### Day 24 — 15 Oct 2026
+
+**What I have done**
+- Learned and practiced Java Streams for processing collections
+- Used operations such as filtering, mapping and sorting
+- Practiced combining Streams with Lambda Expressions
+
+**What I will do**
+- Revise Generics, Lambda Expressions and Streams
+- Practice more collection-processing problems
+
+**Issues faced**
+- Faced some difficulty understanding intermediate and terminal Stream operations
+
+---
+
+### Day 23 — 14 Oct 2026
+
+**What I have done**
+- Completed Java Generics assignment
+- Practiced generic classes, methods, bounds and wildcards
+- Learned and practiced Lambda Expressions and functional interfaces
+
+**What I will do**
+- Learn and practice Java Streams
+- Apply Streams and Lambda Expressions to collections
+
+**Issues faced**
+- Faced some difficulty understanding bounded wildcards and Lambda Expressions
+
+---
+
+### Day 22 — 13 Oct 2026
+
+**What I have done**
+- Completed and practiced Java Collections assignments
+- Worked with List, Set, Queue and Map
+- Practiced collection operations and implementations
+
+**What I will do**
+- Learn Java Generics and Lambda Expressions
+- Practice generic classes, methods and functional interfaces
+
+**Issues faced**
+- Faced some difficulty understanding the differences between Collection interfaces and their implementations
+
+---
+
+### Day 21 — 12 Oct 2026
+
+**What I have done**
+- Completed Runtime Analysis and Big O Notation assignment
+- Practiced analyzing time and space complexity
+- Compared the performance of different algorithms
+
+**What I will do**
+- Learn and practice Java Collections
+- Work with List, Set, Queue and Map
+
+**Issues faced**
+- Faced some difficulty analyzing time and space complexity for different algorithms
+
+---
+
 ### Day 20 — 09 Oct 2026
 
 **What I have done**
