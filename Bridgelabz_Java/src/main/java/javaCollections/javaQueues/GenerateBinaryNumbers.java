@@ -8,7 +8,7 @@ import java.util.Queue;
  * Generate the first N binary numbers using a queue.
  *
  * Author : Hemang
- * Date   : 12-10-2026
+ * Date   : 13-10-2026
  */
 
 public class GenerateBinaryNumbers {

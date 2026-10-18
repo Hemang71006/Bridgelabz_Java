@@ -8,7 +8,7 @@ import java.util.Comparator;
  * Treat patients with higher severity first.
  *
  * Author : Hemang
- * Date   : 12-10-2026
+ * Date   : 13-10-2026
  */
 
 public class HospitalTriageSystem {

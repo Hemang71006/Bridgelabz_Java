@@ -10,7 +10,7 @@ import java.util.ListIterator;
  * Find the Nth element from the end without calculating list size.
  *
  * Author : Hemang
- * Date   : 12-10-2026
+ * Date   : 13-10-2026
  */
 public class NthElementFromEnd {
 
